@@ -24,7 +24,6 @@ Run Analysis Notebooks
         - For ~/Code/06.DMG_reactome.ipynb use ~/Code/jupyter_reactome.yml
   - Change the filepath of the project_master_dir to the appropriate location on your system
   - Run all cells
--	Repeat for each additional notebook in directory: ~/Code/
 
 Note: Run scripts in numerical order.  The results from preceding notebooks are required for later notebooks to run correctly.  Please ensure that you change the project_master_dir to the appropriate location on your system for each notebook before running.
 
