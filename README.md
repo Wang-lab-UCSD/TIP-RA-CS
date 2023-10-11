@@ -3,7 +3,7 @@ The code needed to reproduce the analysis of methylation array data in James, Ho
 
 
 ## **Instructions**
-Begin the analysis by first creating the conda environments found here: ~/Code/Environments/*.yml. 
+Begin the analysis by first creating the conda environments found here: ~/Environments/*.yml. 
 
 The methylation data produced in this publication have been deposited in NCBI’s Gene Expression Omnibus and are accessible via the accession number GSE230446.  Please find the data at the following link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230446. Please download the data from GEO to the directory: ~/Data/Raw_Data/
 
