@@ -3,7 +3,7 @@ The code needed to reproduce the analysis of methylation array data in James, Ho
 
 Please see instructions for replications of analysis below:
 
-**System Requirements**
+## **System Requirements**
 Script has been tested on system with following specifications:
 
 Platform: x86_64-conda-linux-gnu
