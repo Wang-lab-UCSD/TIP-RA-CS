@@ -3,7 +3,7 @@ The code needed to reproduce the analysis of methylation array data in James, Ho
 
 Please see instructions for replications of analysis below:
 
-1. System Requirements
+**System Requirements**
 Script has been tested on system with following specifications:
 
 Platform: x86_64-conda-linux-gnu
@@ -13,14 +13,13 @@ Analysis has been performed on a high-performance cluster using the slurm job ma
 
 Required R packages are included in the below conda environment files and are loaded in each notebook.
 
-2. Installation Guide
+**Installation Guide**
 We have provided two conda environments to be used with our jupyter notebooks. The .yml files for those environments can be found here: ~/Code/Environments/*.yml.
 
-3. Demo
+**Data**
 The methylation data produced in this publication have been deposited in NCBI’s Gene Expression Omnibus and are accessible via the accession number GSE230446.  Please find the data at the following link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230446. 
 
-4. Instructions for Use
-Data Download & Environment Preparation
+**Instructions**
 Begin the analysis by first creating the conda environments described above. Next, please download the data from GEO to the directory: ~/Data/Raw_Data/
 
 Run Analysis Notebooks
@@ -35,7 +34,7 @@ Run Analysis Notebooks
 
 Note: Run scripts in numerical order.  The results from preceding notebooks are required for later notebooks to run correctly.  Please ensure that you change the project_master_dir to the appropriate location on your system for each notebook before running.
 
-Mapping Figures to Results
+**Mapping Figures to Results**
 
 After running the analysis, the results for each figure can be found in these locations:
 
