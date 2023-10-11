@@ -13,14 +13,10 @@ Analysis has been performed on a high-performance cluster using the slurm job ma
 
 Required R packages are included in the below conda environment files and are loaded in each notebook.
 
-**Installation Guide**
-We have provided two conda environments to be used with our jupyter notebooks. The .yml files for those environments can be found here: ~/Code/Environments/*.yml.
+## **Instructions**
+Begin the analysis by first creating the conda environments found here: ~/Code/Environments/*.yml. 
 
-**Data**
-The methylation data produced in this publication have been deposited in NCBI’s Gene Expression Omnibus and are accessible via the accession number GSE230446.  Please find the data at the following link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230446. 
-
-**Instructions**
-Begin the analysis by first creating the conda environments described above. Next, please download the data from GEO to the directory: ~/Data/Raw_Data/
+The methylation data produced in this publication have been deposited in NCBI’s Gene Expression Omnibus and are accessible via the accession number GSE230446.  Please find the data at the following link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230446. Please download the data from GEO to the directory: ~/Data/Raw_Data/
 
 Run Analysis Notebooks
 -	For each notebook in directory: ~/Code/
@@ -34,7 +30,7 @@ Run Analysis Notebooks
 
 Note: Run scripts in numerical order.  The results from preceding notebooks are required for later notebooks to run correctly.  Please ensure that you change the project_master_dir to the appropriate location on your system for each notebook before running.
 
-**Mapping Figures to Results**
+## **Mapping Results to Figures**
 
 After running the analysis, the results for each figure can be found in these locations:
 
