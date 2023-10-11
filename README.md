@@ -17,13 +17,13 @@ Begin the analysis by first creating the conda environments found here: ~/Code/E
 The methylation data produced in this publication have been deposited in NCBI’s Gene Expression Omnibus and are accessible via the accession number GSE230446.  Please find the data at the following link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230446. Please download the data from GEO to the directory: ~/Data/Raw_Data/
 
 Run Analysis Notebooks
--	For each notebook in directory: ~/Code/
+- For each notebook in directory: ~/Code/
   - Launch the notebook
-    - Select the appropriate conda environment
-      - All notebooks EXCEPT ~/Code/06.DMG_reactome.ipynb use jupyter_TIP-RA-CS.yml
-      - For ~/Code/06.DMG_reactome.ipynb use ~/Code/jupyter_reactome.yml
-- Change the filepath of the project_master_dir to the appropriate location on your system
-- Run all cells
+      - Select the appropriate conda environment
+        - All notebooks EXCEPT ~/Code/06.DMG_reactome.ipynb use jupyter_TIP-RA-CS.yml
+        - For ~/Code/06.DMG_reactome.ipynb use ~/Code/jupyter_reactome.yml
+  - Change the filepath of the project_master_dir to the appropriate location on your system
+  - Run all cells
 -	Repeat for each additional notebook in directory: ~/Code/
 
 Note: Run scripts in numerical order.  The results from preceding notebooks are required for later notebooks to run correctly.  Please ensure that you change the project_master_dir to the appropriate location on your system for each notebook before running.
