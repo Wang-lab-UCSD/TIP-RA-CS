@@ -1,8 +1,6 @@
 # TIP-RA-CS
 The code needed to reproduce the analysis of methylation array data in James, Holers, Iyer, Prideaux, et al. 2023.
 
-Please see instructions for replications of analysis below:
-
 ## **System Requirements**
 Script has been tested on system with following specifications:
 
@@ -20,10 +18,10 @@ The methylation data produced in this publication have been deposited in NCBI’
 
 Run Analysis Notebooks
 -	For each notebook in directory: ~/Code/
-  - Launch the notebook as described above
+  - Launch the notebook
     - Select the appropriate conda environment
-    - Note: All notebooks EXCEPT ~/Code/06.DMG_reactome.ipynb use jupyter_TIP-RA-CS.yml
-    - For ~/Code/06.DMG_reactome.ipynb use ~/Code/jupyter_reactome.yml
+      - All notebooks EXCEPT ~/Code/06.DMG_reactome.ipynb use jupyter_TIP-RA-CS.yml
+      - For ~/Code/06.DMG_reactome.ipynb use ~/Code/jupyter_reactome.yml
 - Change the filepath of the project_master_dir to the appropriate location on your system
 - Run all cells
 -	Repeat for each additional notebook in directory: ~/Code/
